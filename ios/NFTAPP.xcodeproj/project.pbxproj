@@ -14,6 +14,11 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-NFTAPP-NFTAPPTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-NFTAPP-NFTAPPTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A8F675759EAC4174933F8CC7 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16D1C8EA92954D1EB258E5C6 /* Inter-Bold.ttf */; };
+		F23880926EF54F7FA64B1D3E /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2339D40920E5474987D62921 /* Inter-Light.ttf */; };
+		CD1F5BA687EF4F3A9DCDABC1 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CDFF4AFE66F4518AC3B214C /* Inter-Medium.ttf */; };
+		2A11032E010B4573AF206FD1 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B34596533A948C881ABE34F /* Inter-Regular.ttf */; };
+		5F9816182BF34047A07FBF26 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11C74AD77EA649C28FD26CD6 /* Inter-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = NFTAPP/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-NFTAPP-NFTAPPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFTAPP-NFTAPPTests.release.xcconfig"; path = "Target Support Files/Pods-NFTAPP-NFTAPPTests/Pods-NFTAPP-NFTAPPTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		16D1C8EA92954D1EB258E5C6 /* Inter-Bold.ttf */ = {isa = PBXFileReference; name = "Inter-Bold.ttf"; path = "../src/assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2339D40920E5474987D62921 /* Inter-Light.ttf */ = {isa = PBXFileReference; name = "Inter-Light.ttf"; path = "../src/assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6CDFF4AFE66F4518AC3B214C /* Inter-Medium.ttf */ = {isa = PBXFileReference; name = "Inter-Medium.ttf"; path = "../src/assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7B34596533A948C881ABE34F /* Inter-Regular.ttf */ = {isa = PBXFileReference; name = "Inter-Regular.ttf"; path = "../src/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		11C74AD77EA649C28FD26CD6 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; name = "Inter-SemiBold.ttf"; path = "../src/assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +132,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				588A842A82D14765A2AD7AFF /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +158,19 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		588A842A82D14765A2AD7AFF /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				16D1C8EA92954D1EB258E5C6 /* Inter-Bold.ttf */,
+				2339D40920E5474987D62921 /* Inter-Light.ttf */,
+				6CDFF4AFE66F4518AC3B214C /* Inter-Medium.ttf */,
+				7B34596533A948C881ABE34F /* Inter-Regular.ttf */,
+				11C74AD77EA649C28FD26CD6 /* Inter-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +268,11 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A8F675759EAC4174933F8CC7 /* Inter-Bold.ttf in Resources */,
+				F23880926EF54F7FA64B1D3E /* Inter-Light.ttf in Resources */,
+				CD1F5BA687EF4F3A9DCDABC1 /* Inter-Medium.ttf in Resources */,
+				2A11032E010B4573AF206FD1 /* Inter-Regular.ttf in Resources */,
+				5F9816182BF34047A07FBF26 /* Inter-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
