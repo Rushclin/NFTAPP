@@ -1,7 +1,8 @@
 import { NavigationContainer, DefaultTheme } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import React from 'react'
-import { Text, View } from 'react-native'
+import { StatusBar, Text, View } from 'react-native'
+import { COLORS } from './src/constants'
 import Detail from './src/screens/Detail'
 import Home from './src/screens/Home'
 
@@ -20,6 +21,7 @@ const theme = {
 const App = () => {
   return (
     <NavigationContainer theme={theme}>
+      <StatusBar backgroundColor={COLORS.primary} />
       <Stack.Navigator screenOptions={{ headerShown: false }} initialRouteName='Home'>
         <Stack.Screen name='Home' component={Home} />
         <Stack.Screen name='Details' component={Detail} />
